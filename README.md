@@ -10,3 +10,5 @@ I have Created files above with Theories on how to better improve propts with CH
 Use the keyword Exclude to make sure ChatGPT doesnt do something you do not wish it to
 
 ChatGPT cant follow the prompt write me a poem and dont rhyme so in my theory I explain how to get around that
+
+**This Repo is a WIP more will be coming soon!**
