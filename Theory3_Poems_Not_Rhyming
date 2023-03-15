@@ -1,13 +1,26 @@
 [Theory]
-ChatGPT is unable to make poems that do not rhyme
+ChatGPT is unable to make poems that do not rhyme The following are suggestions to help fix that issue but are not fullproof
+Especially if you give further instruction or reference/styles.
 
-Here is a way to get around that:
+[Suggestion 1 Prompt]:
 
+Reflect on the [dynamic aspect/theme] by crafting [number of lines] that focus on unique, unrelated imagery in each line, 
+maintaining a specific line length of [desired length], 
+and avoiding rhyme or similar sounding words. Emphasize [emotional tone] and incorporate [literary device] 
+while staying true to a [specific poetic form or free verse] style.
+
+[Prompt 1 Example]:
+
+Reflect on the [vastness of the cosmos] by crafting 5 lines that focus on unique, unrelated imagery in each line, 
+maintaining a specific line length of [10 words], and avoiding rhyme or similar sounding words. Emphasize [wonder].
+
+[Suggestion 2 Prompt]:
 [Longer Poems]
 Write a piece of expressive language that captures [Enter Description of Non Rhyming Poem here], 
 using sensory details and vivid imagery to evoke the sensations and emotions of the experience. 
 You must Exclude any Rhymes, rhyming, or poetic nature. Thus not using sentences that end in a word that another sentence will use to rhyme with.
 
+[Suggestion 3 Prompt]:
 [Shorter Poems]
 Write a piece of expressive language that captures the use of [Enter Poem Description here], Make sure it is densely packed with the above example stated above, 
 using sensory details and vivid imagery to evoke the sensations and emotions of the experience. 
