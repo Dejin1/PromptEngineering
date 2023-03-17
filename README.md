@@ -1,5 +1,6 @@
+
 -------------------------------------------------------------------------------------------------------
-# PromptEngineering: Tips and Tricks for Working with ChatGPT 🚀
+# PromptEngineering: Tips and Tricks for Working with ChatGPT/Midjourney 🤖
 -------------------------------------------------------------------------------------------------------
 
 Welcome to PromptEngineering, a repository focused on sharing tips and tricks for working with ChatGPT, an advanced AI language model developed by OpenAI.
@@ -13,12 +14,27 @@ What You'll Find Here 📚
 Tips for optimizing prompts to improve performance
 Techniques for fine-tuning models to specific use cases
 Best practices for avoiding common pitfalls and issues
+In this repository, you'll find various theories, techniques, 
+and best practices to help you better understand and utilize ChatGPT to achieve your NLP goals.
 
 -------------------------------------------------------------------------------------------------------
 Getting Started 🚀
 -------------------------------------------------------------------------------------------------------
 
 If you're new to ChatGPT, we recommend starting with our beginner-friendly tutorials to help you get up to speed with the basics. From there, you can explore more advanced topics and dive deeper into the technical details of working with this powerful language model.
+
+-------------------------------------------------------------------------------------------------------
+Theory 1: How to Improve Exclusion Requests 📝
+-------------------------------------------------------------------------------------------------------
+Link to my full theory and test results: https://github.com/Dejin1/PromptEngineering/blob/main/Theory1_Exclude.txt
+
+I theorize that ChatGPT better represents an exclusion request if you make sure to use the word "Exclude" or "excluding."
+
+Explanation
+When I asked ChatGPT to provide strategies for increasing lifespan, excluding exercise and diet recommendations, it provided conflicting advice that directly conflicted with the exclusion prompt. However, when I modified the prompt to include the word "Exclude," ChatGPT provided clear and useful advice that did not conflict with the exclusion prompt.
+
+How to Use This Tip
+If you want ChatGPT to exclude certain topics or recommendations, make sure to use the words "Exclude" or "excluding" in your prompt. This can help to improve ChatGPT's responses and avoid conflicting or inconsistent advice.
 
 -------------------------------------------------------------------------------------------------------
 Contributing 🤝
