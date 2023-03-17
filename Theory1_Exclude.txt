@@ -1,6 +1,4 @@
-Theory 1
-
-I theorise that ChatGPT better represents a exclusion request if you make sure you use the word Exclude/excluding
+# Theory 1: How to Improve Exclusion Requests 📝
 
 [Explanation]
 I asked this question:
