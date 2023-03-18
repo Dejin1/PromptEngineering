@@ -3,7 +3,6 @@
 #The code is a voice assitant maker using chatGPTAPI
 
 import openai
-
 import speech_recognition as sr
 import pyttsx3
 import time 
