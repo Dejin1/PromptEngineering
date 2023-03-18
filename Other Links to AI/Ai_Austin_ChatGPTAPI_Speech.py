@@ -25,7 +25,7 @@ def transcribe_audio_to_test(filename):
         print("skipping unkown error")
 
 def generate_response(prompt):
-    response= openai.completion.create(
+    response= openai.Completion.create(
         engine="text-davinci-003",
         prompt=prompt,
         max_tokens=4000,
@@ -33,21 +33,21 @@ def generate_response(prompt):
         stop=None,
         temperature=0.5,
     )
-    return response ["Choices"][0]["text"]
+    return response ["choices"][0]["text"]
 def speak_text(text):
     engine.say(text)
     engine.runAndWait()
 
 def main():
     while True:
-        #Waith for user say "genius"
-        print("Say 'Genius' to start recording your question")
+        #Wait for user say "Hey"
+        print("Say 'Hey' to start recording your question")
         with sr.Microphone() as source:
             recognizer=sr.Recognizer()
             audio=recognizer.listen(source)
             try:
                 transcription = recognizer.recognize_google(audio)
-                if transcription.lower()=="genius":
+                if transcription.lower()=="Hey":
                     #record audio
                     filename ="input.wav"
                     print("Say your question")
@@ -64,7 +64,7 @@ def main():
                     #transcript audio to test 
                     text=transcribe_audio_to_test(filename)
                     if text:
-                        print(f"yuo said {text}")
+                        print(f"you said {text}")
                         
                         #Generate the response
                         response = generate_response(text)
