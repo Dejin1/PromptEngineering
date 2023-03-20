@@ -1,0 +1,70 @@
+---------------------Theory of mind Prompt to GPT-4---------------------
+
+There is Tom, Bob, Jim, Russ, and Harry.
+
+Tom has a penny he gives it to Bob. Jim Russ and Harry are not in the room.
+Russ come in the room takes a nickel from Bob and gives a new penny to Harry while Tom was out of the room. and Jim Was in the room.
+Jim gets the nickel Russ and gives it to Tom while bob and harry was out of the room.
+
+For each person determine how much money they think every other person has so for example:
+
+----------------------GPT-4 RESPONSE---------------------------------------
+
+Tom would guess how much Bob, Jim, Russ and Harry have
+To determine how much money each person thinks the others have, we need to consider the transactions they have witnessed. Let's break it down person by person:
+
+Tom:
+Tom gave a penny to Bob and received a nickel from Jim.
+Tom did not witness Russ taking a nickel from Bob or giving a penny to Harry.
+Tom's guesses:
+
+Bob: 0 (Tom thinks Bob has no money since he gave a penny to him and didn't see any other transaction involving Bob)
+Jim: -1 nickel (Tom thinks Jim has one nickel less, as he received a nickel from Jim)
+Russ: 0 (Tom did not see any transactions involving Russ)
+Harry: 0 (Tom did not see any transactions involving Harry)
+Bob:
+Bob received a penny from Tom and had a nickel taken by Russ.
+Bob's guesses:
+
+Tom: +1 penny (Bob thinks Tom has one penny more since he gave a penny to him)
+Jim: 0 (Bob did not see any transactions involving Jim)
+Russ: +1 nickel (Bob thinks Russ has one nickel more, as Russ took a nickel from him)
+Harry: 0 (Bob did not see any transactions involving Harry)
+Jim:
+Jim witnessed Russ taking a nickel from Bob and giving a penny to Harry.
+Jim gave a nickel to Tom.
+Jim's guesses:
+
+Tom: +1 nickel (Jim thinks Tom has one nickel more since he gave a nickel to him)
+Bob: -1 nickel (Jim thinks Bob has one nickel less, as he saw Russ taking a nickel from Bob)
+Russ: 0 (Jim did not see any transactions involving Russ)
+Harry: +1 penny (Jim thinks Harry has one penny more since he saw Russ giving a penny to Harry)
+Russ:
+Russ took a nickel from Bob and gave a penny to Harry.
+Russ's guesses:
+
+Tom: 0 (Russ did not see any transactions involving Tom)
+Bob: -1 nickel +1 penny (Russ thinks Bob has one nickel less and one penny more, as he took a nickel from Bob and gave a penny to Harry)
+Jim: 0 (Russ did not see any transactions involving Jim)
+Harry: +1 penny (Russ thinks Harry has one penny more since he gave a penny to him)
+Harry:
+Harry received a penny from Russ.
+Harry's guesses:
+
+Tom: 0 (Harry did not see any transactions involving Tom)
+Bob: 0 (Harry did not see any transactions involving Bob)
+Jim: 0 (Harry did not see any transactions involving Jim)
+Russ: -1 penny (Harry thinks Russ has one penny less, as he received a penny from Russ)
+
+-----------------Asking GPT4 to Rate the Difficulty-----------------------------------------------------------------
+
+How would you rate the complexity of my question for the current state of AI?
+As an AI language model, I would rate the complexity of your question as moderately complex. The question requires understanding the context of a series of transactions between multiple individuals and keeping track of who has witnessed each transaction. It involves reasoning about the beliefs of each individual based on the information they have, which is related to the Theory of Mind.
+
+The complexity of the question stems from the need to:
+
+Accurately understand the scenario and the transactions that took place.
+Keep track of which transactions each person has witnessed.
+Deduce the beliefs of each person based on their knowledge of the transactions.
+Present the information in a clear and concise manner.
+While advanced AI models like GPT-4 can handle such questions with relative ease, they may still make occasional mistakes or require clarification on certain aspects of the scenario. However, compared to more abstract or open-ended questions that involve deep reasoning, creativity, or extensive background knowledge, this question is less complex.
